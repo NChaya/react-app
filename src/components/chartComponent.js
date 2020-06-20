@@ -10,6 +10,7 @@ class ChartComponent extends Component {
         this.createChart();
     }
 
+    // test commit
     createChart = () => {
         this.props.dataFromDashboard.data.map((data) => {
             var ctx = document.getElementById(data.chartId).getContext('2d');
