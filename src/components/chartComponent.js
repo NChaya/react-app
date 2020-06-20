@@ -9,7 +9,7 @@ class ChartComponent extends Component {
     componentDidMount() {
         this.createChart();
     }
-
+    // test it again from visual studio
     createChart = () => {
         this.props.dataFromDashboard.data.map((data) => {
             var ctx = document.getElementById(data.chartId).getContext('2d');
